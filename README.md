@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/gh-space-shooter.gif" alt="GitHub Space Shooter" width="100%" />
+  <img src="./assets/space-shooter.gif" alt="GitHub Space Shooter" width="100%" />
 </p>
 
 ### Hi there, I'm Andreu

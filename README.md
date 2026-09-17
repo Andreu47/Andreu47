@@ -5,7 +5,9 @@
   />
 </p>
 
-<img src="./assets/contribution-orbit.svg" alt="Contribution orbit" width="100%" />
+<p align="center">
+  <img src="./assets/gh-space-shooter.gif" alt="GitHub Space Shooter" width="100%" />
+</p>
 
 ### Hi there, I'm Andreu
 

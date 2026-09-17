@@ -1,13 +1,8 @@
-<h1 align="center">Hi, I'm Andreu</h1>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=DAM+student+at+Institut+Tecnol%C3%B2gic+de+Barcelona;Interested+in+software%2C+graphics+and+technical+projects;Building+small+projects+and+learning+by+doing" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&pause=1100&color=9B5DE5&center=true&vCenter=true&width=900&lines=Curious+about+how+things+work.;Learning+by+building+things.;Exploring+software%2C+systems+and+graphics." alt="Typing SVG" />
 </p>
 
 <p align="center">
-  Small projects, experiments and things I'm learning.
-</p>
-
-<p align="center">
-  Currently studying at <b>Institut Tecnològic de Barcelona</b>.
+  DAM student at <b>Institut Tecnològic de Barcelona</b><br>
+  Interested in software development, technical projects and graphics.
 </p>

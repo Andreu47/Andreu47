@@ -7,7 +7,7 @@
 
 <img src="./assets/contribution-orbit.svg" alt="Contribution orbit" width="100%" />
 
-#### Hi there, I'm Andreu
+### Hi there, I'm Andreu
 
 - 🎓 DAM student at **Institut Tecnològic de Barcelona**
 - 💻 Interested in **software development, technical projects and graphics**

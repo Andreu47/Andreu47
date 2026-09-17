@@ -7,12 +7,9 @@
 
 <img src="./assets/contribution-orbit.svg" alt="Contribution orbit" width="100%" />
 
-### Hi, I'm Andreu
+#### Hi there, I'm Andreu
 
-🎓 DAM student at **Institut Tecnològic de Barcelona**
-
-💻 Interested in **software development, technical projects and graphics**
-
-🌌 Also deeply interested in **physics**, especially as a field I would like to explore professionally
-
-🧠 I like understanding how things work and turning that curiosity into projects
+- 🎓 DAM student at **Institut Tecnològic de Barcelona**
+- 💻 Interested in **software development, technical projects and graphics**
+- 🌌 Passionate about **physics**, with the goal of exploring it professionally
+- 🧠 I like understanding how things work and turning that curiosity into projects

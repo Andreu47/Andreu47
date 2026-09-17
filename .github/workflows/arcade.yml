@@ -20,7 +20,7 @@ jobs:
       - name: generate contribution graph SVGs
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: raimonizard
+          github_user_name: torvalds
           games: 'minesweeper'
 
       - name: push SVGs to the output branch

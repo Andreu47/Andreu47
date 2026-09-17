@@ -1,1 +1,101 @@
+<svg width="900" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
 
+  <!-- background -->
+  <rect width="900" height="220" rx="18" fill="#0d1117"/>
+
+  <!-- subtle stars -->
+  <g opacity="0.35" fill="#c9d1d9">
+    <circle cx="80" cy="38" r="1"/>
+    <circle cx="150" cy="62" r="1"/>
+    <circle cx="250" cy="34" r="1"/>
+    <circle cx="740" cy="42" r="1"/>
+    <circle cx="810" cy="70" r="1"/>
+    <circle cx="700" cy="180" r="1"/>
+    <circle cx="135" cy="176" r="1"/>
+    <circle cx="220" cy="188" r="1"/>
+  </g>
+
+  <!-- orbit path -->
+  <ellipse cx="450" cy="105" rx="145" ry="48"
+           stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- black hole glow -->
+  <circle cx="450" cy="105" r="55" fill="#161b22" filter="url(#soft)"/>
+
+  <!-- accretion ring -->
+  <ellipse cx="450" cy="105" rx="82" ry="20"
+           stroke="#8b949e" stroke-opacity="0.45"
+           stroke-width="2.5"
+           fill="none">
+    <animateTransform attributeName="transform"
+      type="rotate"
+      from="0 450 105"
+      to="360 450 105"
+      dur="14s"
+      repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- black hole core -->
+  <circle cx="450" cy="105" r="34" fill="#000000"/>
+  <circle cx="450" cy="105" r="37" stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- orbit definition -->
+  <path id="orbitPath"
+        d="M305 105
+           a145 48 0 1 1 290 0
+           a145 48 0 1 1 -290 0"
+        fill="none"/>
+
+  <!-- contribution squares orbiting -->
+  <g>
+    <rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="#0e4429">
+      <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitPath"/>
+      </animateMotion>
+    </rect>
+
+    <rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="#006d32">
+      <animateMotion dur="7s" begin="-1.1s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitPath"/>
+      </animateMotion>
+    </rect>
+
+    <rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="#26a641">
+      <animateMotion dur="7s" begin="-2.2s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitPath"/>
+      </animateMotion>
+    </rect>
+
+    <rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="#39d353">
+      <animateMotion dur="7s" begin="-3.3s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitPath"/>
+      </animateMotion>
+    </rect>
+
+    <rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="#26a641">
+      <animateMotion dur="7s" begin="-4.4s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitPath"/>
+      </animateMotion>
+    </rect>
+
+    <rect x="-5" y="-5" width="10" height="10" rx="1.5" fill="#006d32">
+      <animateMotion dur="7s" begin="-5.5s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbitPath"/>
+      </animateMotion>
+    </rect>
+  </g>
+
+  <!-- subtle label -->
+  <text x="450" y="192"
+        text-anchor="middle"
+        fill="#8b949e"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="14">
+    contributions in orbit
+  </text>
+</svg>

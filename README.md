@@ -6,7 +6,20 @@
 </p>
 
 <p align="center">
-  <img src="./assets/space-shooter.gif" alt="GitHub Space Shooter" width="100%" />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Andreu47/Andreu47/output/minesweeper-contribution-graph-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Andreu47/Andreu47/output/minesweeper-contribution-graph.svg"
+    >
+    <img
+      alt="Minesweeper contribution graph"
+      src="https://raw.githubusercontent.com/Andreu47/Andreu47/output/minesweeper-contribution-graph.svg"
+    >
+  </picture>
 </p>
 
 ### Hi there, I'm Andreu
